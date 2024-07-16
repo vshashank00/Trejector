@@ -1,0 +1,7 @@
+Starting test...
+Page title: Medical Evidence To Support Your Disability Claim - Trajector Medical
+Successfully landed on Trajector Medical website.
+Clicking Free Medical Evaluation button
+Filling in the form with random user data
+viewport changed successfully.
+Test completed successfully.
