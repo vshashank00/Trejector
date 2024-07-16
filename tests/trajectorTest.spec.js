@@ -52,8 +52,8 @@ test.describe('Trajector Medical Test', () => {
     await expect(page.locator("#input_33_13")).toHaveValue(randomName.number);
     await expect(page.locator("#input_33_14_4")).toHaveValue(randomName.state);
     await expect(page.locator("#input_33_14_5")).toHaveValue(randomName.zipCode);
+    //viewport changed successfully
     console.log('viewport changed successfully.');
-
     await page.setViewportSize({ width: 375, height: 667 });
     console.log('Test completed successfully.');
     await testLogStream.close();
